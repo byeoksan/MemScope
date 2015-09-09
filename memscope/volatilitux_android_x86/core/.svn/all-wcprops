@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/6/trunk/core
+END
+vmarea.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/core/vmarea.py
+END
+raw_dump.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/6/trunk/core/raw_dump.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/core/__init__.py
+END
+file.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/core/file.py
+END
+task.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/core/task.py
+END
+kernel_struct.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/core/kernel_struct.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/core/config.py
+END
+fields.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/core/fields.py
+END
+fingerprint.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/core/fingerprint.py
+END

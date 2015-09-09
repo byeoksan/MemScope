@@ -1,0 +1,10 @@
+
+Ideas and bugs to fix:
+======================
+
+- Fix the vm_flags offset detection bug affecting Ubuntu
+- Handle ARM Supersections
+- Add a flag in pslist to display all process within a tree (like pstree)
+- handle objects creation times (if possible)
+- handle uid and gid fields
+- handle sockets / connections

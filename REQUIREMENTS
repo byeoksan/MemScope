@@ -1,0 +1,18 @@
+For Data Acquisition
+====================
+
+1. Packages
+-----------
+In order to use data acquisition scripts belows are required.
+- QEMU
+- libvirt-bin
+- virtinst
+- virt-viewer (optional)
+
+2. Permissions
+--------------
+You can see the script.
+
+
+For Duplication Identification
+==============================

@@ -1,0 +1,100 @@
+Suggestions
+
+    Let's make this code OOP based one.
+
+Big picture
+
+    I want at least four classes which can do equivalent things.
+
+    1. Class ADBHandler
+
+        Simple Description
+
+            This class would handle all connection related to ADB.
+
+        Expected methods
+
+            checkConnection()
+
+            closeConnection()
+
+            retrieveDmesg()
+
+            retrieveLogcat()
+
+
+    2. Class VirshHandler
+       
+        Simple Description
+
+            This class would handle all actions related to virsh
+
+        Expected methods
+
+            createGuest()
+
+            resumeGuest()
+
+            suspendGuest()
+
+            destroyGuest()
+
+            createDump()
+
+            testAppArmor() !!! optional for Ubuntu
+
+    3. Class QMPHandler
+
+        Simple Description
+            
+            This class would handle all qemu monitor actions if virsh does not exists
+            This class would assume the guest is running with qemu
+
+        Expected methods
+
+            suspendGuest()
+
+            resumeGuest()
+
+            createDump()
+            
+            
+
+    4. Class LibvirtHandler
+        
+        Simple Description
+
+            This class would handle libvirt activity without virsh.
+            The objective of this class is to make the program independent of subprocess
+            module.
+
+        Expected methods
+
+            createGuest()
+            
+            resumeGuest()
+
+            suspendGuest()
+
+            destroyGuest()
+
+            createDump()
+
+    5. Class QEMUHandler
+
+        
+    With above 4 classes, here I mention two core features that is likely to be implemented
+
+    1) Periodic dumpgen
+
+        dump memory in periodic manners with logcat and dmesg logs.
+
+    2) Event-based dumpgen
+
+        dump memory when specific event happended in guest.
+        This dump module should watch logcat and dmesg change and dump memory and event based on that.
+
+    
+    Additionally, these features can be added to make this tool fancier.
+
+    (1) 

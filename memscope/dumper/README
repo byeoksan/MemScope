@@ -1,0 +1,34 @@
+LICENSE
+
+TODO: Add this part
+
+INTRODUTION
+
+This scripts provides automatic dump generation feature for android VMs managed by libvirt.
+
+REQUIREMENTS
+
+1) Disk space
+Android x86 kitkat version requires at least 10GB of disk space, 512MB RAM.
+
+2) Packages
+To use this scripts, packages below are needed.
+
+- qemu                     : This installs qemu.
+- libvirt-bin              : This installs virsh for easy manipulation of VM.
+- virtinst                 : This script installs VM with this tool.
+- (optional : virt-viewer) : If you another VNC viewer, you can use it.
+
+3) 
+
+HOWTO
+
+1) Installing VM
+
+We provide installer.py to install VM specific to .
+This script takes 4 arguments.
+
+2) Dump memory
+
+You can use dumper.py to install VM specific to .
+This script

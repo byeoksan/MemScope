@@ -1,0 +1,36 @@
+MemScope
+========
+
+MemScope is a simple python script for identifying duplicated pages
+on Android-x86 system based on physical memory snapshots.
+
+MemScope has two functionalities.
+
+Snapshot Acquisition
+--------------------
+MemScope requires physical memory snapshot or memory dump
+in order to identify page duplication.
+To get memory snapshots easily, it is good to use virtual
+machine.
+MemScope provides a way to interact with QEMU and take snapshots
+periodically.
+
+Duplication Identification
+--------------------------
+With the help of volatilitux, written by Emilien Girault, MemScope
+explores memory spaces of all Android processes, including application
+process and system process.
+During the explore it constructs duplication table based on hash of
+each page content.
+
+Assumption
+----------
+MemScope assumes that each page used for virtual memory has size of 4KiB.
+
+Environment
+-----------
+MemScope was tested with Android-x86 kitkat 4.4.4.
+
+Note
+----
+MemScope has not been written to be used as python module.

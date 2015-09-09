@@ -1,0 +1,15 @@
+
+To support android-x86, belows are changed for MemScope
+* volatilitux now does not do exact string match when finding
+  swapper process. Now it only see if the process name starts
+  with 'swapper'
+* HARDCODED_OFFSETS are changed and original one has been
+  commented out.
+* Because mm_struct is not the first member of vm_area_struct
+  in higher version of kernel, code for finding mm_struct has
+  been added.
+
+Version 1.01 - Fixed a 64-bit issue (credit: Patrick Burkard)
+
+Version 1.0 - Released on December 7th 2010
+  
